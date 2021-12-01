@@ -1,0 +1,7 @@
+C:\Users\gdrey\source\repos\GenTrackDemo_GDR\GenTrackDemo_GDR\obj\Debug\GenTrackDemo_GDR.csproj.CoreCompileInputs.cache
+C:\Users\gdrey\source\repos\GenTrackDemo_GDR\GenTrackDemo_GDR\bin\Debug\GenTrackDemo.exe.config
+C:\Users\gdrey\source\repos\GenTrackDemo_GDR\GenTrackDemo_GDR\bin\Debug\GenTrackDemo.exe
+C:\Users\gdrey\source\repos\GenTrackDemo_GDR\GenTrackDemo_GDR\bin\Debug\GenTrackDemo.pdb
+C:\Users\gdrey\source\repos\GenTrackDemo_GDR\GenTrackDemo_GDR\obj\Debug\GenTrackDemo.exe
+C:\Users\gdrey\source\repos\GenTrackDemo_GDR\GenTrackDemo_GDR\obj\Debug\GenTrackDemo.pdb
+C:\Users\gdrey\source\repos\GenTrackDemo_GDR\GenTrackDemo_GDR\bin\Debug\testfile.xml

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="aseXML" targetNamespace="urn:aseXML:r32" xmlns:mstns="urn:aseXML:r32" xmlns="urn:aseXML:r32" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="aseXML" msdata:IsDataSet="true" msdata:Locale="en-US" msdata:Prefix="ase">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Header" form="unqualified">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="From" form="unqualified" type="xs:string" minOccurs="0" />
+              <xs:element name="To" form="unqualified" type="xs:string" minOccurs="0" />
+              <xs:element name="MessageID" form="unqualified" type="xs:string" minOccurs="0" />
+              <xs:element name="MessageDate" form="unqualified" type="xs:string" minOccurs="0" />
+              <xs:element name="TransactionGroup" form="unqualified" type="xs:string" minOccurs="0" />
+              <xs:element name="Priority" form="unqualified" type="xs:string" minOccurs="0" />
+              <xs:element name="Market" form="unqualified" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Transactions" form="unqualified">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Transaction" form="unqualified" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="MeterDataNotification" form="unqualified" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="CSVIntervalData" form="unqualified" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+                          <xs:element name="ParticipantRole" form="unqualified" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Role" form="unqualified" type="xs:string" minOccurs="0" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="version" form="unqualified" type="xs:string" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="transactionDate" form="unqualified" type="xs:string" />
+                  <xs:attribute name="transactionID" form="unqualified" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,84 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7": {
+      "GenTrackDemo_GDR/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/GenTrackDemo_GDR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GenTrackDemo_GDR.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GenTrackDemo_GDR/1.0.0": {
+      "type": "project",
+      "path": "../GenTrackDemo_GDR/GenTrackDemo_GDR.csproj",
+      "msbuildProject": "../GenTrackDemo_GDR/GenTrackDemo_GDR.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7": [
+      "GenTrackDemo_GDR >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gdrey\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\gdrey\\source\\repos\\GenTrackDemo_GDR\\GenTrackTests\\GenTrackTests.csproj",
+      "projectName": "GenTrackTests",
+      "projectPath": "C:\\Users\\gdrey\\source\\repos\\GenTrackDemo_GDR\\GenTrackTests\\GenTrackTests.csproj",
+      "packagesPath": "C:\\Users\\gdrey\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gdrey\\source\\repos\\GenTrackDemo_GDR\\GenTrackTests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\gdrey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net47"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net47": {
+          "targetAlias": "net47",
+          "projectReferences": {
+            "C:\\Users\\gdrey\\source\\repos\\GenTrackDemo_GDR\\GenTrackDemo_GDR\\GenTrackDemo_GDR.csproj": {
+              "projectPath": "C:\\Users\\gdrey\\source\\repos\\GenTrackDemo_GDR\\GenTrackDemo_GDR\\GenTrackDemo_GDR.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net47": {
+        "targetAlias": "net47",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.209\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
